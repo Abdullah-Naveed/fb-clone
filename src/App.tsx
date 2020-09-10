@@ -36,10 +36,10 @@ const App = ({ onRequestUpdatedUsers, user }: Props) => {
         <Login handleSignIn={signIn} />
       ) : (
         <>
-          <Header />
+          <Header user={user} />
           <div className="app__body">
-            <Sidebar />
-            <Feed />
+            <Sidebar user={user} />
+            <Feed user={user} />
             <Widgets />
           </div>
         </>

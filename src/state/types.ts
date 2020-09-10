@@ -1,16 +1,15 @@
-import { Action } from 'redux'
+import { Action } from "redux";
 import firebase from "firebase";
 
 export interface LoginState {
-    user: firebase.User | null
+  user: firebase.User | null;
 }
 
 export interface SetUser extends Action {
-    type: '@@login/SET_USER'
-    payload: {
-        user: LoginState
-    }
+  type: "@@login/SET_USER";
+  payload: {
+    user: LoginState;
+  };
 }
 
-export type Actions = SetUser
-
+export type Actions = SetUser;

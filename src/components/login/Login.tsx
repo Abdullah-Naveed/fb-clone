@@ -16,7 +16,7 @@ export const Login = ({ handleSignIn }: any) => {
       </div>
 
       <Button type="submit" onClick={handleSignIn}>
-        Login
+        Sign In
       </Button>
     </div>
   );
