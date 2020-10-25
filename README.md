@@ -4,13 +4,14 @@
 
 This is a web app developed while I was learning ReactJS.
 
+
 This is the Login Screen:
 
-![Template]()
+![Login](theme/assets/loginDemo)
 
-This is the home screen, where you can ***:
+This is the home/ news feed:
 
-![Template]()
+![Home](theme/assets/FeedDemo)
 
 ## :rocket: Installation
 
@@ -18,6 +19,12 @@ Clone the repository into your machine and install the dependencies:
 
 ```bash
 npm install
+```
+
+Add your firebase app credentials in this file:
+
+```bash
+./src/firebase.js
 ```
 
 Run the following command to run the server, see the result in http://localhost:3000/:
