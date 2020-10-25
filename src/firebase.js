@@ -1,14 +1,14 @@
 import firebase from "firebase";
 //convert to typescript later
 const firebaseConfig = {
-    apiKey: "AIzaSyBPlVqt1wb6bti6wrYvsu6l_6Og1gsL1es",
-    authDomain: "facebook-clone-69f42.firebaseapp.com",
-    databaseURL: "https://facebook-clone-69f42.firebaseio.com",
-    projectId: "facebook-clone-69f42",
-    storageBucket: "facebook-clone-69f42.appspot.com",
-    messagingSenderId: "447799471806",
-    appId: "1:447799471806:web:9cf6775bb95444597ab8ef",
-    measurementId: "G-96FQQL273J"
+    apiKey: "MY_FIREBASE_API_KEY",
+    authDomain: "MY_FIREBASE_AUTH_DOMAIN",
+    databaseURL: "MY_FIREBASE_DB_URL",
+    projectId: "fMY_FIREBASE_PROJECT_ID",
+    storageBucket: "MY_FIREBASE_STORAGE_BUCKET",
+    messagingSenderId: "MY_FIREBASE_MESSAGING_SENDER_ID",
+    appId: "MY_FIREBASE_APP_ID",
+    measurementId: "MY_FIREBASE_MEASUREMENT_ID"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)

@@ -1,17 +1,18 @@
 <h1 align="center">
-    Facebook Clone - React
+    Facebook Clone - ReactJS
 </h1>
 
 This is a web app developed while I was learning ReactJS.
 
+## :mag: Preview
 
 This is the Login Screen:
 
-![Login](theme/assets/loginDemo)
+![Login](src/theme/assets/LoginDemo.png)
 
 This is the home/ news feed:
 
-![Home](theme/assets/FeedDemo)
+![Home](src/theme/assets/FeedDemo.png)
 
 ## :rocket: Installation
 
@@ -21,7 +22,7 @@ Clone the repository into your machine and install the dependencies:
 npm install
 ```
 
-Add your firebase app credentials in this file:
+Add your firebase app credentials in this file (firebaseConfig variable):
 
 ```bash
 ./src/firebase.js
@@ -33,7 +34,7 @@ Run the following command to run the server, see the result in http://localhost:
 npm start
 ```
 
-## :books: Tools & Technologies
+## :books: Tools & Technologies used
 
 This project was developed using the following tools and technologies:
 
