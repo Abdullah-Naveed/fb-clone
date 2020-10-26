@@ -5,10 +5,6 @@ import image2 from 'theme/assets/storyReel/2.jpeg'
 import image3 from 'theme/assets/storyReel/3.jpeg'
 import image4 from 'theme/assets/storyReel/4.jpeg'
 import image5 from 'theme/assets/storyReel/5.jpeg'
-import hak from 'theme/assets/storyReel/hak.jpg'
-import rob from 'theme/assets/storyReel/rob.jpg'
-import shahrez from 'theme/assets/storyReel/shahrez.jpg'
-import tiff from 'theme/assets/storyReel/tiff.jpg'
 
 export const StoryReel = () => {
     return (
@@ -20,23 +16,23 @@ export const StoryReel = () => {
 
             <Story
                 image={image1}
-                profileSrc={tiff}
-                title="Tiffany Maher"/>
+                profileSrc="https://www.randomlists.com/img/people/jim_carrey.webp"
+                title="Jim Carrey"/>
 
             <Story
                 image={image3}
-                profileSrc={shahrez}
-                title="Shahrez Saeed"/>
+                profileSrc="https://www.randomlists.com/img/people/drake.webp"
+                title="Drake"/>
 
             <Story
                 image={image4}
-                profileSrc={hak}
-                title="Hakeem Goloba"/>
+                profileSrc="https://www.randomlists.com/img/people/will_smith.webp"
+                title="Will Smith"/>
 
             <Story
                 image={image5}
-                profileSrc={rob}
-                title="Robert Metcalfe"/>
+                profileSrc="https://www.randomlists.com/img/people/jackie_chan.webp"
+                title="Jackie Chan"/>
         </div>
     )
 }
