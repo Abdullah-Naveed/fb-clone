@@ -1,5 +1,5 @@
 import firebase from "firebase";
-//convert to typescript later
+
 const firebaseConfig = {
     apiKey: "MY_FIREBASE_API_KEY",
     authDomain: "MY_FIREBASE_AUTH_DOMAIN",
