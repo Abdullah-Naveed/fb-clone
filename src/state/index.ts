@@ -1,7 +1,6 @@
 import { combineReducers } from "redux";
 
 // Import your state types and reducers here.
-// import { TodoState } from './types';
 import { LoginState } from "./types";
 import loginReducer from "./reducer";
 
